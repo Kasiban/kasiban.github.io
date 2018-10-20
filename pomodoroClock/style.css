@@ -1,0 +1,107 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("tomatoes.jpg");
+
+  /* Full height */
+  height: 100%;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 60px;
+}
+.container {
+   
+    height: 100%;
+    width: 100%;
+}
+.card {
+    background-color: hotpink;
+    width: 36rem;
+    margin-top: -9px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button {
+	background: green;
+	border: 2px solid #0db986;
+	border-radius: 9px;
+	padding: 15px;
+	width: 100px;
+	color: white;
+	margin: 10px;
+	font-size: 25px;
+	font-family: fantasy;
+    vertical-align: middle;
+}
+
+#h3{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: -10%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+#TaskBreak{
+    font-family: fantasy;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: -60%;
+}
+.containerUnofficial{
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.containButton{
+    font-family: fantasy;
+   display: inline-block;
+    margin-left: 10%;
+    margin-right: -20%;
+}
+.buttonCustom{
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 2000;
+    line-height: 1.42857;
+    color: white;
+    background-color: green;
+}
+.customText {
+    display: inline-block;
+    font-family: fantasy;
+    color: white;
+}
+#stats{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    text-align: center;
+    margin-left: 55%;
+    margin-right: -55%;
+}
+.sessionBotton{
+    display: inline-block;
+    padding-right: 5%;
+}
+.breakButton{
+    display: inline-block;
+}
