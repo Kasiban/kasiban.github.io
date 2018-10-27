@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kasiban.github.io.my-app",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^16.5.2",
@@ -12,6 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d buid",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -22,5 +25,7 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  
+    
 }
