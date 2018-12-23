@@ -1,19 +1,109 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restart Network</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+crossorigin="anonymous">
+    <title>Welcome to My Portfolio</title>
 </head>
 
-<body style="position: fixed; left: 50%; width: 30em; height: 18em; margin-left: -15em;">
-   
-    <h2>All the website projects that I made during my study at Restart Network</h2>
-    <p><a href="./calculator/index.html">Calculator</a></p>
-    <p><a href="pomodoroClock/index.html">Pomodoro Clock</a></p>
-    <h3>React Project</h3>
-    <p><a href="./my-app/public/index.html">Weather Checker</a></p>
-    <img alt="" width="400" height="400" src="restartnetwork.jpg">
+<body>
+    <nav class="topnav" id="myTopnav">
+        <a href="#" class="active">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#work">My Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+    </nav>
+    <section id="showcase" class="grid">
+        <div class="bg-img"></div>
+        <div class="main">
+            <h1>Watcharee 
+                <span>Kasiban</span>
+            </h1>
+            <h2>Web Developer</h2>
+            <div class="icons">
+                <a href="#!">
+                    <i class="fab fa-mailchimp fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+            </div>
+        </div> <!--end of class "main" -->
+    </section>
+    <section class="about">
+        <h1>About Me</h1>
+        <div class="content-text">
+            <p>Hi, My name is Watcharee Kasiban or "Oy". I am a junior web developer living in Eindhoven, the Netherlands. 
+            I enjoy making beautiful and responsive website with divert technic such as HTML/CSS/JS, React, graphQL, LAMP and MERN.</p>
+            <p>I am looking for challenging company to work as internship. feel free to contact me!</p>
+        </div>
+    </section>
+    <div class="space"></div>
+    <section class="content-work">
+        <h1>My Work</h1>
+        <div id="work">
+        <div class="card">
+            <div class="ribbon lamp"><span>LAMP</span></div>
+            <img src="BlackmandibledToucan.jpg" alt="Toucan bird" />
+            <div class="fab-link"><a href="https://nature.kasiban.com/"> + </a></div>
+            <div class="container">
+                <h3>Work with Nature</h3>
+                <p> This website created for the NGO Work With Nature using PHP7, Bootstrap, SQL and Codeigniter MVC.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="ribbon js"><span>JS</span></div>
+            <img src="./pomodoroClock/tomatoes.jpg" alt="pomodoro" />
+            <div class="fab-link"><a href="pomodoroClock/index.html"> + </a></div>
+            <div class="container">
+                <h3>Pomodoro Clock</h3>
+                <p>Used javascript to create pomodoro Clock. This is part of assignment during study at Restart Network.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="ribbon js"><span>JS</span></div>
+            <img src="Calculator.png" alt="calculator" />
+            <div class="fab-link"><a href="./calculator/index.html"> + </a></div>
+            <div class="container">
+                <h3>Calculator</h3>
+                <p>Create calculator by using javascript. This is part of an assignment during my study at Restart Network.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="contact" class="grid">
+        <div id="contact-email">
+            <div class="bg-contact"></div>
+            <h1>Contact Me</h1>
+            <div class="social">
+                <a href="#!">
+                   
+                    <h2>kasibanoy@gmail.com</h2>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="grid-footer">
+        <p>Copyright &copy; 2018</p>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+</script>
 </body>
 </html>
-<style></style><script></script>

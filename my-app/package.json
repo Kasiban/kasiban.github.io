@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kasiban.github.io/my-app/",
+  "homepage": "http://kasiban.github.io/my-app",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "gh-pages": "^2.0.1",
